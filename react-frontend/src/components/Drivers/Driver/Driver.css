@@ -1,0 +1,30 @@
+.driverCard {
+	margin: 10px 0;
+}
+
+.driverDetail {
+	display: flex;
+}
+
+.driverNameAndOrigin {
+	display: flex;
+}
+
+.detailIcon {
+	padding: 5px;
+}
+
+.detailText {
+	padding: 5px;
+}
+
+.cityOrigin {
+	color: gray;
+	display: flex;
+	padding: 5px;
+}
+
+.cityOriginText {
+	font-size: 10px;
+	margin-top: 9px;
+}
