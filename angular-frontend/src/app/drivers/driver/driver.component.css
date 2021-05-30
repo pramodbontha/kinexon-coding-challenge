@@ -1,0 +1,13 @@
+.card-heading {
+    display: flex;
+}
+
+.city-origin {
+    color: gray;
+    font-size: 12px;
+    margin: 5px 5px;  
+}
+
+.driver-card {
+    margin: 20px 0;
+}

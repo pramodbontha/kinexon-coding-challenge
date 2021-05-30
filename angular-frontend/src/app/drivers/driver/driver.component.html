@@ -1,0 +1,41 @@
+<div class="card driver-card">
+  <div class="card-body">
+    <div class="card-heading">
+      <h5 class="card-title">
+        {{ driver.driverName }}
+      </h5>
+      <div class="city-origin">
+        <i class="bi bi-geo-alt-fill"></i>
+        {{ driver.driverCityOrigin }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <i class="bi bi-globe"></i>
+        {{ driver.driverLanguage }}
+      </div>
+      <div class="col">
+        <i class="bi bi-phone-fill"></i>
+        {{ driver.driverPhone }}
+      </div>
+      <div class="col">
+        <i class="bi bi-info-circle-fill"></i>
+        {{ driver.driverInfo }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <i class="bi bi-person-badge-fill"></i>
+        {{ driver.licensePlate }}
+      </div>
+      <div class="col">
+        <i class="bi bi-map-fill"></i>
+        {{ driver.kmDriven }} kms
+      </div>
+      <div class="col">
+        <i class="bi bi-pin-map-fill"></i>
+        {{ driver.location }}
+      </div>
+    </div>
+  </div>
+</div>
